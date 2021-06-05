@@ -1,7 +1,14 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 header {
   width: 100%;
   padding: 30px 20px;
-  background-color: rgb(216, 112, 211);
+  background-color: #ff00ff;
   display: flex;
   justify-content: flex-end;
 }
@@ -18,11 +25,13 @@ header > :first-child {
 }
 
 main {
-  width: 1000px;
-  margin: 0 auto;
   display: flex;
-  justify-content: flex-end;
-  background-color: palegreen;
+  justify-content: center;
+}
+
+.sidebar {
+  background-color: #d8ffb6;
+  width: 300px;
 }
 
 .main-visual {
@@ -31,8 +40,8 @@ main {
   padding: 20px;
   background-color: green;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
-  align-items: space-around;
 }
 
 .main-visual > div {
@@ -48,14 +57,13 @@ footer {
   display: flex;
   background-color: cornflowerblue;
   justify-content: center;
-  align-items: center;
   flex-wrap: wrap;
 }
 
 footer > div {
   margin: 10px;
   height: 40px;
-  flex-basis: 45%;
+  width: 45%;
   max-width: 600px;
   background-color: paleturquoise;
 }
