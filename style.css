@@ -14,17 +14,17 @@
 }
 
 .flex > div:nth-child(1) {
-  flex-grow: 0;
+  flex-shrink: 0;
 }
 
 .flex > div:nth-child(2) {
-  flex-grow: 1;
+  flex-shrink: 1;
 }
 
 .flex > div:nth-child(3) {
-  flex-grow: 2;
+  flex-shrink: 2;
 }
 
 .flex > div:nth-child(4) {
-  flex-grow: 3;
+  flex-shrink: 3;
 }
